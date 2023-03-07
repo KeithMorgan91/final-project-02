@@ -6,16 +6,23 @@
     <meta name="keyword" content="portfolio, tester, skills" />
     <meta name="description" content="Keith Morgan Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="css/styles.css" rel="stylesheet" />
     <title>Keith Morgan: Test|Break|Repeat</title>
   </head>
 
-<!--HOME PAGE-->
+  <!--HOME PAGE-->
+
   <body>
     <!--Navbar-->
     <div class="navbar">
-      <div class="container">
+      <div class="container flex">
         <h1 class="logo">Keith Morgan</h1>
         <nav>
           <ul>
@@ -27,5 +34,36 @@
         </nav>
       </div>
     </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>About Me</h1>
+          <p>
+            A software Qaulity Assurance Engineer with spectacular attention to detail. 
+          </p>
+          <a class="btn btn-outline" href="skills.html">My Skills</a>
+        </div>
+
+        <div class="showcase-form card">
+          <h2>Contact Me</h2>
+
+          <form>
+            <div class="form-control">
+              <input type="name" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input type="text" name="company" placeholder="Company Name" required />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+
+        </div>
+      </div>
+    </section>
   </body>
 </html>
