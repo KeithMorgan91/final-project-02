@@ -48,6 +48,7 @@ img {
 }
 
 .navbar ul {
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -76,8 +77,11 @@ img {
 }
 
 .flex {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
     align-items: center;
     height: 100%;
 }
@@ -160,6 +164,7 @@ img {
     width: 400px;
     padding: 40px;
     z-index: 100;
+    -webkit-justify-self: flex-end;
     justify-self: flex-end;
 }
 
