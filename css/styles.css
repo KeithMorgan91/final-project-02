@@ -114,6 +114,19 @@ img {
     transform: scale(.98);
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 /*============== Showcase ==============*/
 
@@ -146,15 +159,6 @@ img {
     overflow: visible;
     grid-template-columns: 55% 45%;
     gap: 30px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 .showcase-form {
@@ -197,4 +201,10 @@ img {
     transform: skewY(4deg);
     -webkit-transform: skewY(4deg);
     -moz-transform: skewY(4deg);
+}
+
+/*======== Skills ========*/
+
+.skills {
+    padding-top: 100px;
 }
