@@ -131,9 +131,9 @@ img {
     right: 0;
     left: 0;
     background-color: white;
-    transform: skewY(4deg);
-    -webkit-transform: skewY(4deg);
-    -moz-transform: skewY(4deg);
+    transform: skewY(3deg);
+    -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
 }
 
 /*======== Skills ========*/
@@ -142,3 +142,16 @@ img {
     padding-top: 100px;
 }
 
+.skills-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.skills .grid h3 {
+    font-size: 35px;
+}
+
+.skills .grid p {
+    font-size: 18px;
+    font-weight: bold;
+}
