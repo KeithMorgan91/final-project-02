@@ -52,6 +52,21 @@
     color: white;
 }
 
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.bg-light, .btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
