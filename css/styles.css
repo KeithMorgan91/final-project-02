@@ -224,6 +224,11 @@ img {
         justify-self: center;
         margin: auto;
     }
+
+    .soc .grid > *:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
 }
 
 /* Mobile devices */
