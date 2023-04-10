@@ -197,6 +197,13 @@ img {
     transform: translateY(-15px);
 }
 
+/* About Me */
+
+.features-head img {
+    width: 200px;
+    justify-self: flex-end;
+}
+
 /* Footer */
 
 .footer .social a {
