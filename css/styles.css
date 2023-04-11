@@ -199,7 +199,7 @@ img {
 
 /* About Me */
 
-.features-head img {
+.features-head img, .features-sub-head img {
     width: 200px;
     justify-self: flex-end;
 }
