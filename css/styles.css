@@ -226,6 +226,55 @@ img {
     grid-column: 1 / span 2;
 }
 
+/* Contact */
+
+.showcase-contact {
+    height: 1000px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+}
+
+.showcase-contact h1 {
+    font-size: 40px;
+}
+
+.showcase-contact h2 {
+    color: black;
+}
+
+.showcase-contact p {
+    margin: 20px 0;
+}
+
+.showcase-form-contact {
+    position: relative;
+    top: -120px;
+    height: 350px;
+    width: 900px;
+    padding: 40px;
+    z-index: 100;
+    -webkit-justify-self: flex-end;
+    justify-self: flex-end;
+}
+
+.showcase-form-contact .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form-contact input[type='text'],
+.showcase-form-contact input[type='email'] {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.showcase-form-contact input:focus {
+    outline: none;
+}
+
 /* Footer */
 
 .footer .social a {
