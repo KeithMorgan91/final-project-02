@@ -202,12 +202,15 @@ img {
 .features-head img, .skills-head img {
     width: 200px;
     justify-self: flex-end;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .features-sub-head img {
     width: 300px;
     justify-self: flex-end;
-
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .features-main .card > i{
