@@ -176,6 +176,10 @@ img {
     grid-template-columns: 4fr 3fr;
 }
 
+.cloud img {
+    width: 300px;
+}
+
 /*======== Experience ========*/
 
 .languages .flex {
