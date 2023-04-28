@@ -171,12 +171,12 @@ img {
     grid-row: 1 / span 2;
 }
 
-/* Cloud */
+/*======== Cloud ========*/
 .cloud .grid {
     grid-template-columns: 4fr 3fr;
 }
 
-/* Experience */
+/*======== Experience ========*/
 
 .languages .flex {
     flex-wrap: wrap;
@@ -197,9 +197,9 @@ img {
     transform: translateY(-15px);
 }
 
-/* About Me */
+/*======== Socials ========*/
 
-.features-head img {
+.features-head img, .skills-head img {
     width: 200px;
     justify-self: flex-end;
 }
