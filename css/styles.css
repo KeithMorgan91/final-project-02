@@ -294,6 +294,17 @@ img {
     align-items: flex-start;
 }
 
+.skills-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.skills-main a:hover {
+    font-weight: bold;
+}
+
 /* Footer */
 
 .footer .social a {
