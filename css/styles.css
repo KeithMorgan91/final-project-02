@@ -139,22 +139,22 @@ img {
     -moz-transform: skewY(3deg);
 }
 
-/*======== Skills ========*/
+/*======== Hobbies ========*/
 
-.skills {
+.hobbies {
     padding-top: 100px;
 }
 
-.skills-heading {
+.hobbies-heading {
     max-width: 500px;
     margin: auto;
 }
 
-.skills .grid h3 {
+.hobbies .grid h3 {
     font-size: 35px;
 }
 
-.skills .grid p {
+.hobbies .grid p {
     font-size: 18px;
     font-weight: bold;
 }
@@ -203,7 +203,7 @@ img {
 
 /*======== Socials ========*/
 
-.features-head img, .skills-head img {
+.features-head img, .hobbies-head img {
     width: 200px;
     justify-self: flex-end;
     border-radius: 8px;
@@ -283,25 +283,25 @@ img {
 }
 
 
-/* Skills & Hobbies */
+/* Hobbies */
 
-.skills-main h3 {
+.hobbies-main h3 {
     margin: 20px 0;
 }
 
-.skills-main .grid {
+.hobbies-main .grid {
     grid-template-columns: 1fr 2fr;
     align-items: flex-start;
 }
 
-.skills-main nav li {
+.hobbies-main nav p {
     font-size: 17px;
     padding-bottom: 5px;
     margin-bottom: 5px;
     border-bottom: 1px #ccc solid;
 }
 
-.skills-main a:hover {
+.hobbies-main a:hover {
     font-weight: bold;
 }
 
