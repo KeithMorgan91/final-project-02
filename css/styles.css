@@ -285,8 +285,13 @@ img {
 
 /* Skills & Hobbies */
 
-.docs-main h3 {
+.skills-main h3 {
     margin: 20px 0;
+}
+
+.skills-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
 }
 
 /* Footer */
