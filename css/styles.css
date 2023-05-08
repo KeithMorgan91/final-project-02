@@ -282,6 +282,13 @@ img {
     outline: none;
 }
 
+
+/* Skills & Hobbies */
+
+.docs-main h3 {
+    margin: 20px 0;
+}
+
 /* Footer */
 
 .footer .social a {
