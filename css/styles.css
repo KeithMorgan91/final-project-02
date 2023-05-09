@@ -41,6 +41,11 @@ p {
 
 img {
     width: 100%;
+    height: 0;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 /*============= Navbar =============*/
@@ -311,13 +316,15 @@ img {
     margin: 0 10px;
 }
 
+
 /* Tablets & smaller */
 
 @media (max-width: 768px) {
-    .grid, .showcase .grid, 
+    .grid, 
+    .showcase .grid, 
     .stats .grid, 
     .cli .grid, 
-    .cloud .grid 
+    .cloud .grid, 
     .features-main .grid,
     .hobbies-main .grid
     {
