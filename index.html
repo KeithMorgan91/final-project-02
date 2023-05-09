@@ -50,8 +50,9 @@
         <div class="showcase-form card">
           <h2>Contact Me</h2>
 
-          <form name="contact" method="POST" netlify-honepot="bot-field" data-netlify="true">
+          <form name="contact" method="POST" netlify-honepot="bot-field" netlify>
             <input type="hidden" name="form-name" value="contact">
+            <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field" /></label></p>
             <div class="form-control">
               <input type="text" name="name" placeholder="Name" required />
             </div>
