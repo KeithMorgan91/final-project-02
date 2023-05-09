@@ -299,15 +299,11 @@ img {
     align-items: flex-start;
 }
 
-.hobbies-main nav p {
+.hobbies-main nav li {
     font-size: 17px;
     padding-bottom: 5px;
     margin-bottom: 5px;
     border-bottom: 1px #ccc solid;
-}
-
-.hobbies-main a:hover {
-    font-weight: bold;
 }
 
 /* Footer */
