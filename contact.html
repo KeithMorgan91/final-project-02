@@ -40,8 +40,9 @@
       <div class="container grid">
         <div class="showcase-form-contact card">
           <h2>Contact Me</h2>
-
-          <form>
+          <form name="contact" method="POST" netlify-honepot="bot-field" netlify>
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field" /></label></p>
             <div class="form-control">
               <input type="text" name="name" placeholder="Name" required />
             </div>
@@ -70,7 +71,7 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
