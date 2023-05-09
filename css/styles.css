@@ -314,7 +314,13 @@ img {
 /* Tablets & smaller */
 
 @media (max-width: 768px) {
-    .grid, .showcase .grid, .stats .grid, .cli .grid, .cloud .grid {
+    .grid, .showcase .grid, 
+    .stats .grid, 
+    .cli .grid, 
+    .cloud .grid 
+    .features-main .grid,
+    .hobbies-main .grid
+    {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
